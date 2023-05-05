@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/f033c7aece.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images\Untitled design (1).png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sevices">Services</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+    
+                <h1>I'm<span> Vhenus Tumbaga</span></h1>    
+            </div>
+            <div class="share h1">
+              <a href="mailto:agabmutvhenus@gmail.com" class="fa fa-envelope"></a>
+              <a href="https://web.facebook.com/Simmonaaaahhh23" class="fab fa-facebook-f"></a>
+              <a href="https://www.instagram.com/zxcvbnm_23_/" class="fab fa-instagram"></a>
+              <a href="tel:09508354965" class="fa fa-phone-square"></a>
+              <a href="https://www.tiktok.com/@simmionah?_t=8c3naV08yFF&_r=1" class="fab fa-tiktok"></a>
+          </div>
+          
+        </div>
+    </div>
+    <!-----------about----------->
+    <div id="about">
+        <div class="container">  
+            <div class="row">
+                <div class="about-col-1"><img src="images\1 photoo.jpeg">
+                </div>
+                <div class="about-col-2">
+            
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My Name is Vhenus</p>
+                    <p>Age: 21 years old</p>
+                    <p>Date of Birth: April 23, 2002</p>
+                    <p>Place of Birth: Mendez, Cavite</p>
+                    <p>Citizenship: Filipino</p>
+                    <p>Sex: Female</p>
+                    <p>Civil Status: Single</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achievement')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            VIDEOGRAPHY
+                            <img src="images\video.jpg" class="img-fluid rounded-start" alt="video">
+                          </div>
+                          <div class="col">
+                            EVENT SINGER
+                            <img src="images\sing.jpg" class="img-fluid rounded-start" alt="sing">
+                          </div>
+                          <div class="col">
+                            PHOTOGRAPHY
+                            <img src="images\camera.jpg" class="img-fluid rounded-start" alt="camera">
+                          </div>
+                        </div>
+                      </div>
+                    </div>            
+
+                    <section class="tab-contents" id="achievement">
+                      <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Elementary
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">With Honor</div>
+                          
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Senior High
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">With Honor</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              College
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Dean List</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------services---------->
+    <section>
+    <div id="sevices">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+            <div class="sevices-list">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images\video.jpg" class="d-block w-50 mx-auto" alt="video">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images\sing.jpg" class="d-block w-50 mx-auto" alt="sing">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images\camera.jpg" class="d-block w-50 mx-auto" alt="camera">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>     
+        </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    
+    <h1 class="heading">EDUCATIONAL <span> ATTAINMENT</span> </h1>
+    
+    <div class="container-lg">
+        <div class="row justify-content-center">
+         <div class="col-md-3 mb-2">
+            <div class="card" id="card-content">
+            <img src="images\4.png" class="card-img-right-top" alt="elem"  >
+             <div class="card-body">
+              <h5 class="card-title">ELEMENTARY</h5>
+              <p class="card-text">MATALA ELEMENTARY SCHOOL
+                <br>Matala, Cahil,Calaca City, Batangas
+                <br>2014-2015
+              </div>
+            </div>
+          </div>
+        <div class="col-md-3 mb-2">
+          <div class="card" id="card-content">
+            <img src="images\3.png" class="card-img-top" alt="high">
+            <div class="card-body">
+              <h5 class="card-title">JUNIOR HIGHSCHOOL</h5>
+              <p class="card-text">CAHIL NATIONAL HIGHSCHOOL
+                <br>Cahil,Calaca City, Batangas
+                <br>2018-2019
+                <br></p>
+            </div>
+            </div>
+          </div>
+
+        
+        <div class="col-md-3 mb 2">
+          <div class="card" id="card-content">
+            <img src="images\2.png" class="card-img-top" alt="academe">
+            <div class="card-body">
+              <h5 class="card-title">SENIOR HIGHSCHOOL</h5>
+              <p class="card-text">UNIVERSAL SCHOLASTIC ACADEME 
+                <br>Sinisian East,Lemery, Batangas
+                <br>2020-2021
+                <br></p>
+            </div>
+            </div>
+        
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card" id="card-content">
+            <img src="images\1.png" class="card-img-top" alt="bsu">
+            <div class="card-body">
+              <h5 class="card-title">TERTIARY</h5>
+              <p class="card-text">Batangas State University TNEU Balayan Campus
+                <br>Caloocan, Balayan, Batangas
+                <br>2022-2023
+                <br></p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+      </div>
+    </div>
+</section>
+
+  <section class="contact"id="contact">
+    <h1 class="heading"> CONTACT</h1> 
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating py-2">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  SUBMIT
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Successfully</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Successfully submitted
+      </div>
+      <div class="modal-footer">
+        
+    </div>
+  </div>
+</div>
+  </section>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of  tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of  tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+
+</body>
+</html>
